@@ -160,6 +160,525 @@ a {
 
 }
 
+/*-----------------MAINservicios--------------------*/
+
+.main_servicios {
+
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100vh;
+    border: solid  0px;
+}
+
+#margin-bottonout {
+
+margin-bottom: 0em !important;
+
+}
+
+
+.img_services {
+width: 50%;
+height: 100%;
+background-image: url("images/services.jpeg");
+background-position: center center;
+background-size: cover;
+} 
+
+
+
+.mis_servicios {
+    width: 50%;
+    height: 15%;
+    padding: 20;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 0em,
+} 
+
+#logoservicios {
+    width: 56px;
+    height: 50px;
+    padding: 05px;
+    margin: 02px;
+    border: solid 0px;
+    align-self: center;
+}
+
+.servicios_father {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    width: 50%;
+    height: 85%;
+    padding: 0px;
+    border: solid 0px;
+} 
+
+.graphicdesign {
+    display: flex;
+    justify-content: center;
+    align-items: space-between;
+    width: 40%;
+    height: 40%;
+    font-style: 14px;
+    padding: 15px;
+    border: solid  0px;
+}
+
+.titulo_servicios {
+    font-size: 18px;
+}
+
+.titulo-descripción_servicios {
+    color: #656565;
+    text-align: left;
+    padding-top: 5px;
+}
+
+.logosubsize {
+    width: 18px;
+    height: 16px;
+    padding: 0px;
+    margin: 02px;
+    border: solid 0px;
+    align-self: top;
+}
+
+@media screen and (max-width: 1029px) {
+    .servicios_father {
+        width: 70%;
+    } 
+
+    .img_services {
+        width: 30%;
+    } 
+
+    .mis_servicios {
+            width: 70%;
+    }     
+        
+}
+
+@media screen and (max-width: 727px) {
+    .servicios_father {
+        width: 100%;
+    } 
+
+    .img_services {
+        width: 0%;
+    } 
+
+    .mis_servicios {
+        width: 100%;
+
+    }     
+        
+}
+
+@media screen and (max-width: 520px) {
+    .servicios_father {
+
+        width: 100%;
+        flex-direction: column;
+        flex-flow: wrap;
+        justify-content: space-evenly;
+        align-content: space-evenly;
+        height: 84%;
+        padding: 3px;
+        margin: 0px;
+        border: solid 0px;
+        font-size: 15px;
+    } 
+
+    .graphicdesign {
+        display: flex;
+        justify-content: flex-start;
+        width: 100%;
+        height: 20%;
+        font-style: 16px;
+        padding: 8px;
+        border: solid  0px;
+    }
+
+    .img_services {
+        width: none;
+        height: none;
+        background-image: none;
+        background-position: none none;
+        background-size: none;
+        } 
+
+        .mis_servicios {
+            width: 100%;
+
+        }     
+        
+}
+
+/*-----------------MAINtrabajos--------------------*/
+
+
+
+.son_proyectos {
+    grid-area: 1 / 1 / 1 / 5;
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 60px;
+    text-align: center;
+    object-fit: contain;
+    width: 100%;
+    border: solid 0px;
+}
+
+.justify-content {
+
+    display: flex;
+    justify-content: center;
+}
+
+
+#stroke {
+    -webkit-text-stroke: 0.5px black;
+    color: transparent; 
+    font-size: 50px;
+    font-weight: revert;
+}
+
+
+
+#son_conoceid {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: revert;
+}
+
+.son_tags {
+    grid-area: 2 / 1 / 2 / 5;
+    margin-bottom: 4px;
+}
+
+.son_tags_row {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: flex-start;
+    justify-content: center;
+    font-size: 13px;
+}
+
+.son_tags_row li  {
+    margin-right: 7px;
+    margin-left: 7px;
+    margin-top: 7px;
+    font-size: 10px;
+    border: solid 0.1px;
+    padding: 6px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.ciirss  {
+    grid-area: 3 / 1 / 3 / 1;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 3px;
+
+}
+ 
+.ciiweb  {
+    grid-area: 3 / 2 / 3 / 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3px;
+}
+
+.coaig  {
+    grid-area: 3 / 3 / 3 / 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3px;
+}
+
+.easywayig  {
+    grid-area: 3 / 4 / 3 / 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3px;
+}
+
+.ofeig  {
+    grid-area: 4 / 1 / 4 / 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.petig  {
+    grid-area: 4 / 2 / 4 / 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.humanizadosvideo  {
+   grid-area: 4 / 3 / 4 / 3;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.mundopsi  {
+   grid-area: 4 / 4 / 4 / 4;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.tba  {
+    grid-area: 5 / 1 / 5 / 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.arqmujia  {
+    grid-area: 5 / 2 / 5 / 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.marianacacci  {
+   grid-area: 5 / 3 / 5 / 3;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.salvaje  {
+    grid-area: 5 / 4 / 5 / 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main div img {
+    width: 80%; 
+    height: 80%;
+    object-fit:cover;
+    margin-top: 1px;
+    padding: 0px;
+    border: solid 1px lightgrey;
+}
+
+.container_father {
+    display: grid;
+    width: 100%;
+    margin-bottom: 1.8em;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-auto-rows: auto;
+    grid-column-gap: 1px;
+    grid-row-gap: 1px;
+
+}
+
+@media screen and (max-width: 625px) {
+    .container_father{ 
+        grid-template-columns: 50% 50%;
+        grid-auto-rows: auto;
+  
+    }
+
+
+    .son_proyectos {
+        grid-area: 1 / 1 / 1 / 3;
+        margin-top: 20px;
+
+    }
+
+    .son_tags {
+        grid-area: 2 / 1 / 2 / 3;
+        margin-bottom: 4px;
+    }
+
+
+    .ciirss  {
+        grid-area: 3 / 1 / 3 / 2;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        margin-top: 3px;
+    
+    }
+     
+    .ciiweb  {
+        grid-area: 3 / 2 / 3 / 3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 3px;
+    }
+    
+    .coaig  {
+        grid-area: 4 / 1 / 4 / 2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 3px;
+    }
+    
+    .easywayig  {
+        grid-area: 4 / 2 / 4 / 3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 3px;
+    }
+    
+    .ofeig  {
+        grid-area: 5 / 1 / 5 / 2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .petig  {
+        grid-area: 5 / 2 / 5 / 3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .humanizadosvideo  {
+       grid-area: 6 / 1 / 6 / 2;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+    }
+    
+    .mundopsi  {
+       grid-area: 6 / 2 / 6 / 3;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+    }
+    
+    .tba  {
+        grid-area: 7 / 1 / 7 / 2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .arqmujia  {
+        grid-area: 7 / 2 / 7 / 3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .marianacacci  {
+       grid-area: 8 / 1 / 8 / 2;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+    }
+    
+    .salvaje  {
+        grid-area: 8 / 2 / 8 / 3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
+
+    
+/*-----------------MAINaboutme--------------------*/
+
+
+.sizeaboutme {
+    width: 33%;
+    height: 100%;
+    border: 1px black solid;
+} 
+
+.backgroundsize {
+    width: 33%;
+    height: 35em;
+} 
+
+.backgroundimg {
+    background-image: url(images/aboutmepic.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 3px;
+} 
+
+/*-----------------MAINcontacto--------------------*/
+
+
+.main_contacto {    
+    height: 91vh;
+    width: 100%;   
+    display: flex;
+    flex-flow: column wrap;
+    align-content:center;
+    justify-content: center;
+    background-image: url("images/contact.jpeg");
+    background-size:cover;
+
+} 
+
+.main_formulario {
+width: 50%;
+height: 60%;
+border: solid 0px;
+display: flex;
+flex-flow: column;
+align-items: center;
+justify-content: space-evenly;
+}
+
+.main_font_hablamos {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    color: white;
+    -webkit-text-stroke: 1px white;
+    letter-spacing: 1px;
+}
+
+.main_font_dejanos {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: white;
+}
+
+
+@media screen and (max-width: 528px) {
+    #textareachico {
+    width: 350px;
+    }
+}
 
 
 /* --------- FOOTER --------- */
