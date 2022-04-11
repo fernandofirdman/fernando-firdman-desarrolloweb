@@ -1,0 +1,53 @@
+header {
+    background-color: rgb(255, 255, 255);
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    
+    .nav_li {
+        font-size: 17px;
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    .size-flexend {
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+        padding-left: 5px;
+    }
+    
+    .backgroundcolor  {
+        background-color: white;    
+    }
+    
+    .paddingleftright {
+    
+        margin-left: 2em;
+    
+    }
+    
+    #fontcolor {    
+        color: rgb(110, 108, 108) !important;
+    
+    }
+    
+    #fontcolor:hover {
+        color: rgb(241, 187, 70) !important;
+    }
+    
+    #contactoeffect {
+        background-color: lightgrey;
+        border-radius: 30px;
+        color: rgb(255, 255, 255);
+    }
+    
+    #contactoeffect:hover {
+        background-color: rgba(241, 187, 70, 40%);
+        border-radius: 30px;
+        color: rgb(110, 108, 108);
+    }
+
+}
+
+
+

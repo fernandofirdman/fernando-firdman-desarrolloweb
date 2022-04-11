@@ -1,0 +1,38 @@
+.main__contacto {    
+    height: 91vh;
+    width: 100%;   
+    display: flex;
+    flex-flow: column wrap;
+    align-content:center;
+    justify-content: center;
+    background-image: url("../images/contact.jpeg");
+    background-size:cover;
+
+    .main__formulariocontacto {
+        width: 50%;
+        height: 60%;
+        border: solid 0px;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: space-evenly;
+        }
+        
+        .main__contacto--fonthablamos {
+            font-family: $font-fam01;
+            font-size: 22px;
+            color: $primary-color;
+            -webkit-text-stroke: 1px $primary-color;
+            letter-spacing: 1px;
+        }
+        
+        .main__contacto--fontdejanos {
+            font-family: $font-fam01;
+            font-size: 16px;
+            color: $primary-color;
+            padding-top: 0%;
+        }
+
+} 
+
+

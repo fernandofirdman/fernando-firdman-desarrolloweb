@@ -1,0 +1,31 @@
+$primary-color: white;
+$font-fam01: 'Open Sans', sans-serif;
+
+
+/* MAPA */
+
+$textandcolor:(
+    font-fam02: 'Montserrat',
+    color01: rgb(238, 237, 230),
+);
+
+/* EXTEND */
+
+%flexgrid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+};
+
+/* MIXIN */
+
+@mixin cardsaboutme ($ancho, $alto, $display, $alineado, $flexwrap, $justificacion) {
+
+    width: $ancho; 
+    height: $alto;
+    display: $display;
+    align-content: $alineado;
+    flex-flow: $flexwrap;
+    justify-content: $justificacion;
+    
+}

@@ -1,0 +1,96 @@
+.main {
+    background-image: url("../images/main_background01.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: center;
+    align-content: flex-start;
+
+    
+
+    &_calltoaction {
+        border: solid 0px;
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        font-size: 40px;
+        text-align: center;
+        font-family: map-get($textandcolor, font-fam02);
+        color: map-get($textandcolor, color01);
+    } 
+
+
+    &__calltoaction-—bold {
+        -webkit-text-stroke: 1px;
+        color: map-get($textandcolor, color01);
+
+    }
+
+  
+                &__container {
+                width: 50%;
+                height: 70%;
+                border: solid 0px $primary-color;
+                display: flex;
+                flex-direction: column;
+                align-items: center;   
+                justify-content: space-around; 
+            }
+
+                    &__redes {
+                    border: solid 0px;
+                    width: 90%;
+                    height: 10%;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                    font-family: $font-fam01;
+                    font-size: 17px;
+                    letter-spacing: 0.6px;
+                    color: map-get($textandcolor, color01);
+                }
+
+                    &__redes—-bold{
+                    -webkit-text-stroke: 0px;
+                }
+
+                &__calltoaction {
+                    border: solid 0px;
+                    width: 90%;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    font-size: 40px;
+                    text-align: center;
+                    font-family: 'Montserrat', sans-serif;
+                    color: map-get($textandcolor, color01);
+                } 
+
+
+                &__calltoaction—-bold {
+                    -webkit-text-stroke: 0px;
+                }
+
+                &__button {
+                    border: solid 1px;
+                    background-color: $primary-color;
+                    padding: 10px;
+                    border-radius: 20px;
+                    text-align: center;
+                    font-family: $font-fam01;
+                    font-size: 16px;
+                }
+
+                &__button:hover {
+                    background-color: rgba(211, 211, 211, 0);
+                    color: white;
+                }
+
+}

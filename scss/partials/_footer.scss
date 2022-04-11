@@ -1,0 +1,122 @@
+
+footer   {  background-color: rgba(0,0,0,.3);
+width: 100vw;
+height: 10.6em;
+
+    .footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-start;         
+
+        &__name {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            padding: 0px;
+            margin: 0px;
+            width: 170px;
+            height: fit-content;
+            font-style: italic;
+            font-family: 'Courier New', Courier, monospace;
+            margin-top: 20px;
+        
+        } 
+
+        &__name--fontstyle {
+            font-style: normal;
+            -webkit-text-stroke: 1px;
+        }
+
+        &__contacto {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            padding: 0px;
+            margin: 0px;
+            width: 330px;
+            height: fit-content;
+            font-style: italic;
+            font-family: 'Courier New', Courier, monospace;
+            margin-top: 20px;
+        } 
+
+        &__contacto--fontsyle  {
+            font-style: normal;
+            -webkit-text-stroke: 1px;
+        } 
+
+        &__redes {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-end;
+            padding: 0px;
+            margin: 0px;
+            width: 180px;
+            height: fit-content;
+            margin-top: 17.4px;
+        } 
+
+        &__redes--flex {
+            margin: 2px 0px;
+            padding: 0px;
+            display: flex;
+            justify-content: flex-start;
+            font-family: 'Courier New', Courier, monospace 
+        }
+        
+        &__redes--fontstyle {
+            -webkit-text-stroke: 1px;
+        }
+
+        &__redes--imgflex {
+            margin: 0px 0;
+            padding: 0px;
+            width: 120px;
+            height: fit-content;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+        }
+
+        &__redes--imgsize {
+            width: 100%;
+            height: 100%;
+        }
+
+        &__datafiscal--flex {
+            padding: 0px;
+            margin: 0px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 22px;
+        } 
+
+        &__datafiscal--fontsize {
+            font-size: 13px;
+            font-family: 'Courier New', Courier, monospace;
+            -webkit-text-stroke: 0,2px;
+        }
+
+        &__datafiscal--img {
+            width: 60%;
+            height: 60%;
+        }
+
+        &__copyright {
+            width: 100vw;
+            height: 2px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+    } 
+     p {
+        margin-bottom: 0rem;
+    }
+}
+
+
