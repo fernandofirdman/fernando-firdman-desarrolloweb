@@ -1157,6 +1157,10 @@ a {
     font-size: 16px;
     color: white;
   }
+  .main__contacto #textareachico {
+    width: 250px;
+    height: 50%;
+  }
 }
 
 /* FOOTER */
