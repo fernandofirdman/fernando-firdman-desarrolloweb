@@ -190,6 +190,20 @@ header #contactoeffect:hover {
   color: white;
 }
 
+.btn-whatsapp {
+  display: block;
+  width: 20px;
+  height: 20px;
+  color: #fff;
+  position: fixed;
+  right: 80px;
+  bottom: 80px;
+  border-radius: 50%;
+  line-height: 80px;
+  text-align: center;
+  z-index: 999;
+}
+
 .main__servicios {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -491,88 +505,117 @@ main div img {
   grid-area: 5 / 4 / 5 / 4;
 }
 
-.main_mienfoque {
-  width: 100%;
-  height: 70%;
-  background-color: beige;
-  border-radius: 34px;
-  border-right: outset rgba(128, 128, 128, 0.1) 5px;
+.backgroundaboutme {
+  background-image: url(/images/backgroundaboutmereal.jpg);
+  background-size: cover;
 }
 
-.main_estudioandlogros {
-  width: 100%;
-  height: 70%;
-  background-color: beige;
-  border-radius: 34px;
-  border-right: outset rgba(128, 128, 128, 0.1) 5px;
-}
-
-.backgroundsize {
-  width: 100%;
-  height: 70%;
-  border-radius: 34px;
-  border-right: outset rgba(128, 128, 128, 0.1) 5px;
-}
-
-.main_mienfoque h1 {
-  font-size: 24px;
-  font-family: 'Roboto', sans-serif;
-  padding-left: 12px;
-  padding-top: 15px;
-}
-
-.main_mienfoque h2 {
-  font-size: 18px;
-  font-family: "Open Sans", sans-serif;
-  padding-left: 12px;
-}
-
-.main_estudio h1 {
-  font-size: 24px;
-  font-family: 'Roboto', sans-serif;
-  padding-left: 12px;
-  padding-top: 15px;
-}
-
-.main_estudio h2 {
-  font-size: 18px;
-  font-family: f "Open Sans", sans-serif;
-  padding-left: 12px;
-}
-
-.main_logros h1 {
-  font-size: 24px;
-  font-family: 'Roboto', sans-serif;
-  padding-left: 12px;
-}
-
-.main_logros h2 {
-  font-size: 18px;
-  font-family: "Open Sans", sans-serif;
-  padding-left: 12px;
-}
-
-.sizeaboutme {
-  width: 33.3vw;
-  height: 38.5em;
+.father__main--flex {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  -ms-flex-flow: wrap;
-      flex-flow: wrap;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  height: 90vh;
 }
 
-.backgroundimg {
-  background-image: url(/images/aboutmepic.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding: 0px;
+.father__main--flex .son__enfoqueimg--size {
+  width: 30vw;
+  height: 30vh;
+  border: 0px solid;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.father__main--flex img {
+  width: 100%;
+  height: 100%;
+}
+
+.father__main--flex .son__enfoque--size {
+  background-color: rgba(255, 255, 255, 0);
+  width: 80vw;
+  height: 50%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.father__main--flex .son__enfoque--size .enfoque__fontsize {
+  font-size: 28px;
+  font-family: 'Montserrat';
+}
+
+.father__main--flex .son__enfoque--size .enfoque__h2--fontsize {
+  font-size: 18px;
+  font-family: 'Montserrat';
+  line-height: 30px;
+}
+
+@media screen and (max-width: 996px) {
+  .father__main--flex {
+    height: 90vh;
+    width: 100%;
+  }
+  .father__main--flex .son__enfoque--size {
+    width: 90vw;
+    height: 50%;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .father__main--flex .son__enfoque--size .enfoque__fontsize {
+    font-size: 18px;
+  }
+  .father__main--flex .son__enfoque--size .enfoque__h2--fontsize {
+    font-size: 14px;
+    line-height: 30px;
+  }
+}
+
+@media screen and (max-width: 661px) {
+  .father__main--flex {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    height: 100vh;
+    width: 100%;
+  }
+  .father__main--flex .son__enfoque--size {
+    width: 90vw;
+    height: 50%;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .father__main--flex .son__enfoque--size .enfoque__fontsize {
+    font-size: 16px;
+  }
+  .father__main--flex .son__enfoque--size .enfoque__h2--fontsize {
+    font-size: 14px;
+    line-height: 30px;
+  }
+}
+
+@media screen and (max-width: 471px) {
+  .father__main--flex .son__enfoque--size {
+    width: 90vw;
+    height: 50%;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .father__main--flex .son__enfoque--size .enfoque__fontsize {
+    font-size: 16px;
+  }
+  .father__main--flex .son__enfoque--size .enfoque__h2--fontsize {
+    font-size: 14px;
+    line-height: 30px;
+  }
 }
 
 .main__contacto {
@@ -830,7 +873,27 @@ a {
   color: #746f6f;
 }
 
+/* HEADER */
+@media screen and (max-width: 992px) {
+  #contactoeffect {
+    background-color: white !important;
+    border-radius: 30px;
+    color: #6e6c6c !important;
+  }
+  #contactoeffect:hover {
+    color: #f1bb46 !important;
+  }
+}
+
 /* INDEX */
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .btn-wsp {
+    width: 63px;
+    height: 63px;
+    line-height: 66px;
+  }
+}
+
 @media screen and (max-width: 512px) {
   .main__calltoaction {
     width: 100%;
@@ -863,7 +926,11 @@ a {
   }
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 533px) {
+  .main__servicios #main__marginbuttonout {
+    font-size: 14px;
+    margin-bottom: 0em !important;
+  }
   .main__servicios .main__serviciosfather {
     width: 100%;
     -webkit-box-orient: vertical;
@@ -881,7 +948,7 @@ a {
     padding: 3px;
     margin: 0px;
     border: solid 0px;
-    font-size: 15px;
+    font-size: 12px;
   }
   .main__servicios .main__servicios--flexsize {
     display: -webkit-box;
@@ -892,8 +959,8 @@ a {
             justify-content: flex-start;
     width: 100%;
     height: 20%;
-    font-style: 16px;
-    padding: 8px;
+    font-style: 12px;
+    padding: 0px;
     border: solid  0px;
   }
   .main__servicios .main__imgservices {
@@ -915,91 +982,91 @@ a {
         grid-template-columns: 50% 50%;
     grid-auto-rows: auto;
   }
-  .son_proyectos {
+  .container_father .son_proyectos {
     -ms-grid-row: 1;
     -ms-grid-column: 1;
     -ms-grid-column-span: 2;
     grid-area: 1 / 1 / 1 / 3;
     margin-top: 20px;
   }
-  .son_tags {
+  .container_father .son_tags {
     -ms-grid-row: 2;
     -ms-grid-column: 1;
     -ms-grid-column-span: 2;
     grid-area: 2 / 1 / 2 / 3;
     margin-bottom: 4px;
   }
-  .ciirss {
+  .container_father .ciirss {
     -ms-grid-row: 3;
     -ms-grid-column: 1;
     -ms-grid-column-span: 1;
     grid-area: 3 / 1 / 3 / 2;
     margin-top: 3px;
   }
-  .ciiweb {
+  .container_father .ciiweb {
     -ms-grid-row: 3;
     -ms-grid-column: 2;
     -ms-grid-column-span: 1;
     grid-area: 3 / 2 / 3 / 3;
     margin-top: 3px;
   }
-  .coaig {
+  .container_father .coaig {
     -ms-grid-row: 4;
     -ms-grid-column: 1;
     -ms-grid-column-span: 1;
     grid-area: 4 / 1 / 4 / 2;
     margin-top: 3px;
   }
-  .easywayig {
+  .container_father .easywayig {
     -ms-grid-row: 4;
     -ms-grid-column: 2;
     -ms-grid-column-span: 1;
     grid-area: 4 / 2 / 4 / 3;
     margin-top: 3px;
   }
-  .ofeig {
+  .container_father .ofeig {
     -ms-grid-row: 5;
     -ms-grid-column: 1;
     -ms-grid-column-span: 1;
     grid-area: 5 / 1 / 5 / 2;
   }
-  .petig {
+  .container_father .petig {
     -ms-grid-row: 5;
     -ms-grid-column: 2;
     -ms-grid-column-span: 1;
     grid-area: 5 / 2 / 5 / 3;
   }
-  .humanizadosvideo {
+  .container_father .humanizadosvideo {
     -ms-grid-row: 6;
     -ms-grid-column: 1;
     -ms-grid-column-span: 1;
     grid-area: 6 / 1 / 6 / 2;
   }
-  .mundopsi {
+  .container_father .mundopsi {
     -ms-grid-row: 6;
     -ms-grid-column: 2;
     -ms-grid-column-span: 1;
     grid-area: 6 / 2 / 6 / 3;
   }
-  .tba {
+  .container_father .tba {
     -ms-grid-row: 7;
     -ms-grid-column: 1;
     -ms-grid-column-span: 1;
     grid-area: 7 / 1 / 7 / 2;
   }
-  .arqmujia {
+  .container_father .arqmujia {
     -ms-grid-row: 7;
     -ms-grid-column: 2;
     -ms-grid-column-span: 1;
     grid-area: 7 / 2 / 7 / 3;
   }
-  .marianacacci {
+  .container_father .marianacacci {
     -ms-grid-row: 8;
     -ms-grid-column: 1;
     -ms-grid-column-span: 1;
     grid-area: 8 / 1 / 8 / 2;
   }
-  .salvaje {
+  .container_father .salvaje {
     -ms-grid-row: 8;
     -ms-grid-column: 2;
     -ms-grid-column-span: 1;

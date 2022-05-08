@@ -94,3 +94,17 @@
                 }
 
 }
+
+.btn-whatsapp {
+    display:block;
+    width:20px;
+    height:20px;
+    color: #fff;
+    position: fixed;
+    right:80px;
+    bottom:80px;
+    border-radius:50%;
+    line-height:80px;
+    text-align:center;
+    z-index:999;
+}

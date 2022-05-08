@@ -1,91 +1,116 @@
-.main_mienfoque {
 
-    width: 100%;
-    height: 70%;
-    background-color: beige;
-    border-radius: 34px;
-    border-right: outset rgba(128, 128, 128, 0.10) 5px;
+.backgroundaboutme  {
+    background-image: url(/images/backgroundaboutmereal.jpg);
+    background-size:cover;
+}
+.father__main--flex {
 
-} 
+display: flex;
+justify-content: center;
+align-items: center;
+flex-flow: column;
+height: 90vh;
 
-.main_estudioandlogros {
+    .son__enfoqueimg--size { 
+        width: 30vw;
+        height: 30vh;
+        border: 0px solid;
+        object-fit: contain;
+    }
+    img { 
+        width: 100%;
+        height: 100%;
+    }
+    .son__enfoque--size {
+        background-color: rgba(255, 255, 255, 0%);
+        width: 80vw;
+        height: 50%;
+        padding-left: 15px;
+        padding-right: 15px;
+        .enfoque__fontsize {
+            font-size: 28px;
+            font-family: 'Montserrat';
+       }
+         .enfoque__h2--fontsize {
+             font-size: 18px;
+             font-family: 'Montserrat';
+             line-height: 30px;
+        }
+        }
 
-    width: 100%;
-    height: 70%;
-    background-color: beige;
-    border-radius: 34px;
-    border-right: outset rgba(128, 128, 128, 0.10) 5px;
+}
 
-} 
+@media screen and (max-width: 996px) {
 
-.backgroundsize {
+    .father__main--flex {
 
-    width: 100%;
-    height: 70%;
-    border-radius: 34px;
-    border-right: outset rgba(128, 128, 128, 0.10) 5px;
-} 
+        height: 90vh;
+        width: 100%;
+        
+            .son__enfoque--size {
+                width: 90vw;
+                height: 50%;
+                padding-left: 0px;
+                padding-right: 0px;
+                .enfoque__fontsize {
+                    font-size: 18px;
+               }
+                 .enfoque__h2--fontsize {
+                     font-size: 14px;
+                     line-height: 30px;
+                }
+                }
+        
+        }
 
+}
 
-.main_mienfoque h1 {
+@media screen and (max-width: 661px) {
 
-    font-size: 24px;
-    font-family: 'Roboto', sans-serif; 
-    padding-left: 12px;
-    padding-top: 15px;
-} 
+    .father__main--flex {
 
-.main_mienfoque h2 {
+        justify-content: flex-start;
+        height: 100vh;
+        width: 100%;
+        
+            .son__enfoque--size {
+                width: 90vw;
+                height: 50%;
+                padding-left: 0px;
+                padding-right: 0px;
+                .enfoque__fontsize {
+                    font-size: 16px;
+               }
+                 .enfoque__h2--fontsize {
+                     font-size: 14px;
+                     line-height: 30px;
+                }
+                }
+        
+        }
 
-    font-size: 18px;
-    font-family: $font-fam01;
-    padding-left: 12px;
-} 
+}
 
-.main_estudio h1 {
+@media screen and (max-width: 471px) {
 
-    font-size: 24px;
-    font-family: 'Roboto', sans-serif; 
-    padding-left: 12px;
-    padding-top: 15px;
-} 
+    .father__main--flex {
 
-.main_estudio h2 {
+        
+            .son__enfoque--size {
+                width: 90vw;
+                height: 50%;
+                padding-left: 0px;
+                padding-right: 0px;
+                .enfoque__fontsize {
+                    font-size: 16px;
+               }
+                 .enfoque__h2--fontsize {
+                     font-size: 14px;
+                     line-height: 30px;
+                }
+                }
+        
+        }
 
-    font-size: 18px;
-    font-family: f$font-fam01;
-    padding-left: 12px;
-} 
-
-
-.main_logros h1 {
-
-    font-size: 24px;
-    font-family: 'Roboto', sans-serif; 
-    padding-left: 12px;
-} 
-
-.main_logros h2 {
-
-    font-size: 18px;
-    font-family: $font-fam01;
-    padding-left: 12px;
-
-} 
-
-
-
-.sizeaboutme {
-
-    @include cardsaboutme (33.3vw, 38.5em, flex, center, wrap, center);
-
-} 
-
-
-.backgroundimg {
-    background-image: url(/images/aboutmepic.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding: 0px;
-} 
+}
+        

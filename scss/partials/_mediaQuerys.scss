@@ -1,5 +1,28 @@
+/* HEADER */
+
+@media screen and (max-width: 992px) {  
+
+     #contactoeffect {
+        background-color: white !important;
+        border-radius: 30px;
+        color: #6e6c6c !important;
+    }
+
+    #contactoeffect:hover {
+        color: rgb(241, 187, 70) !important;
+    }
+}
+
+
 /* INDEX */
 
+@media only screen and (min-width:320px) and (max-width:768px){
+    .btn-wsp{
+        width:63px;
+        height:63px;
+        line-height: 66px;
+	}
+}
 
 @media screen and (max-width: 512px) {
 
@@ -52,10 +75,17 @@
 }
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 533px) {
 
 .main__servicios {
+    
 
+    #main__marginbuttonout {
+        font-size: 14px;
+        margin-bottom: 0em !important;
+    }
+            
+        
 
     .main__serviciosfather {
 
@@ -68,7 +98,7 @@
         padding: 3px;
         margin: 0px;
         border: solid 0px;
-        font-size: 13px;
+        font-size: 12px;
     } 
 
     .main__servicios--flexsize {
@@ -76,7 +106,7 @@
         justify-content: flex-start;
         width: 100%;
         height: 20%;
-        font-style: 14px;
+        font-style: 12px;
         padding: 0px;
         border: solid  0px;
     }
@@ -93,9 +123,9 @@
             width: 100%;
 
         }     
-
     }      
 }
+
 
 
 /* TRABAJOS */
@@ -103,9 +133,9 @@
 @media screen and (max-width: 625px) {
     .container_father{ 
         grid-template-columns: 50% 50%;
-        grid-auto-rows: auto;
+        grid-auto-rows:auto;
   
-    }
+    
 
 
     .son_proyectos {
@@ -121,7 +151,7 @@
 
 
     .ciirss  {
-        grid-area: 3 / 1 / 3 / 2;
+        grid-area: 3 / 1 / 3 / 2; 
         margin-top: 3px;
     
     }
@@ -179,7 +209,7 @@
     .salvaje  {
         grid-area: 8 / 2 / 8 / 3;
     }
-    
+}
 }
 
 /* SOBRE MI */
@@ -260,10 +290,7 @@
 }
 /* SOBRE MI */
 
-@media screen and (max-width: 770px) {
- 
- 
-}
+
 
 
 /* CONTACTO */
@@ -369,3 +396,4 @@
      }
    }
 
+   
